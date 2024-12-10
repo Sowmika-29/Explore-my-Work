@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-image: linear-gradient(to right top, #46a980, #6ab997, #8bcaae, #abdac5, #cbeadc, #c4e0d3, #bed5ca, #b7cbc1, #8ba597, #61806f, #395d49, #123c25);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.portfolio,
+.todo,
+.cal,
+.loginform{
+    background-color: rgba(63, 78, 74, 0.325);
+    justify-content: center;
+    font-size: 2rem;
+    height: 18rem;
+    margin-left:15rem;
+    margin-right: 16rem;
+    margin-top: 3rem;
+    border-radius: 0.9rem;
+}
+p{
+    font-size: 1.1rem;
+    padding: 1rem;
+    max-width: 25rem;
+    
+
+}
+
+
+h1{
+    color: #143825;
+    display: inline;
+    margin-left:6rem;
+    position: absolute;
+    margin-top: 4rem;
+}
+h1:hover{
+    color: #215a46;
+}
+.port-img,
+.todo-img,
+.cal-img,
+.form-img
+       {
+    
+    margin-top: 1rem;
+    margin-left: 35rem;
+    width: 26rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+    opacity: 0.7;
+}
+.arrow{
+    color: #123c25;
+    background: none;
+    position: absolute;
+    width: 3rem;
+    margin-left: 25rem;
+    margin-top: 6rem;
+    height: 3rem;
+  
+}
+.arrow:hover{
+    box-shadow: rgba(69, 111, 82, 0.949)0px 0px 50px;
+    background-color: #256a5751;
+}
+
+
+
+
+
+
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .portfolio,
+    .todo,
+    .cal,
+    .loginform {
+        font-size: 1.5rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        height: 12rem;
+    }
+    h1 {
+        margin-left: 1rem;
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
+    p{
+        font-size: 1rem;
+        margin-left: 1rem;
+        width: 12rem;
+    }
+    .port-img,
+    .todo-img,
+    .cal-img,
+    .form-img {
+        margin-left: 15rem;
+        width: 20rem;
+        height: 10rem;
+    }
+    .arrow {
+        width: 4rem;
+        height: 4rem;
+        margin-top: 4rem;
+    }
+}
+
+/* For mobile phones (max-width: 576px) */
+@media (max-width: 576px) {
+    .portfolio,
+    .todo,
+    .cal,
+    .loginform {
+        text-align: left;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        height: 15rem;
+        padding: 1rem;
+    }
+    h1 {
+        
+        font-size: 1.5rem;
+        margin-top: 11rem;
+        margin-left: 1rem;
+    }
+    p{
+        font-size: 0.7rem;
+        width: 14rem;
+        padding: 0;
+    }
+    .port-img,
+    .todo-img,
+    .cal-img,
+    .form-img {
+        margin-left: 0;
+        width: 100%;
+       
+        margin-top: 1rem;
+    }
+    .arrow {
+        width: 3rem;
+        height: 3rem;
+        margin-top: 6rem;
+    }
+}
